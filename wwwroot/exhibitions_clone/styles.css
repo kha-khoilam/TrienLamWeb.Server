@@ -187,13 +187,26 @@ img {
     letter-spacing: 0.1em;
 }
 
+.exhibition-filters {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
 .exhibition-filters a {
     font-size: 1rem;
-    margin-right: 2rem;
+    white-space: nowrap;
     color: var(--color-text-light);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.exhibition-filters a:hover,
+.exhibition-filters a:active {
+    color: var(--color-accent);
 }
 
 .exhibition-filters a.active {
@@ -241,11 +254,43 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    transition: opacity 0.4s ease;
+    transition: transform 0.5s ease, opacity 0.4s ease;
 }
 
-.exhibition-item:hover .image-container img {
-    opacity: 0.8;
+.image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-accent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.image-container {
+    position: relative;
+}
+
+.exhibition-item:hover .image-container::after,
+.exhibition-item:active .image-container::after {
+    opacity: 0.15;
+}
+
+.exhibition-item:hover .image-container img,
+.exhibition-item:active .image-container img {
+    transform: scale(1.03);
+}
+
+.exhibition-item:hover .exhibition-name,
+.exhibition-item:hover .exhibition-artist,
+.exhibition-item:hover .exhibition-dates,
+.exhibition-item:active .exhibition-name,
+.exhibition-item:active .exhibition-artist,
+.exhibition-item:active .exhibition-dates {
+    color: var(--color-accent);
 }
 
 .exhibition-name {
@@ -254,6 +299,7 @@ img {
     margin-bottom: 0.4rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    transition: color 0.3s ease;
 }
 
 .exhibition-artist {
@@ -262,6 +308,7 @@ img {
     margin-bottom: 0.4rem;
     color: #000;
     text-transform: uppercase;
+    transition: color 0.3s ease;
 }
 
 .exhibition-dates {
@@ -269,6 +316,7 @@ img {
     color: #555;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+    transition: color 0.3s ease;
 }
 
 /* STANDARD GRID FOR SUB-PAGES (Artist, News, etc.) */
@@ -412,6 +460,15 @@ img {
         font-size: 1.2rem;
     }
 
+    .exhibition-filters {
+        gap: 1rem;
+    }
+
+    .exhibition-filters a {
+        font-size: 0.85rem;
+        letter-spacing: 0.05em;
+    }
+
     .exhibition-grid-container {
         flex-direction: column;
         gap: 2.5rem;
@@ -484,6 +541,13 @@ img {
     margin-bottom: 0.8rem;
     color: #aaaaaa;
     transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:active,
+.footer-social a:hover,
+.footer-social a:active {
+    color: var(--color-accent);
 }
 
 .footer-bottom {
