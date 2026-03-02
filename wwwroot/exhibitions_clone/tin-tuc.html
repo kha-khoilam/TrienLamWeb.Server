@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức | Art Exhibition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html">Art Exhibition</a>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
+                    <li><a href="index.html">TRIỂN LÃM</a></li>
+                    <li><a href="phong-xem.html">PHÒNG XEM</a></li>
+                    <li><a href="tin-tuc.html" class="active">TIN TỨC</a></li>
+                    <li><a href="an-pham.html">ẤN PHẨM</a></li>
+                    <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Open Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <div class="mobile-nav-header">
+            <div class="logo"><a href="index.html">Art Exhibition</a></div>
+            <button class="mobile-menu-close" aria-label="Close Menu">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <ul>
+                <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
+                <li><a href="index.html">TRIỂN LÃM</a></li>
+                <li><a href="phong-xem.html">PHÒNG XEM</a></li>
+                <li><a href="tin-tuc.html" class="active">TIN TỨC</a></li>
+                <li><a href="an-pham.html">ẤN PHẨM</a></li>
+                <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
+                <li><a href="lien-he.html">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="page-content" style="min-height: 60vh;">
+        <header class="page-header">
+            <h1 class="page-title">Tin Tức</h1>
+        </header>
+
+        <div class="exhibition-grid">
+            <!-- News 1 -->
+            <article class="exhibition-item">
+                <a href="#" class="exhibition-link">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=800&q=80"
+                            alt="Cian Duggan Interview">
+                    </div>
+                    <div class="exhibition-info">
+                        <h2 class="exhibition-name">In Conversation: Cian Duggan with Art China</h2>
+                        <h3 class="exhibition-artist">CIAN DUGGAN</h3>
+                        <p class="exhibition-dates">January 2026</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- News 2 -->
+            <article class="exhibition-item">
+                <a href="#" class="exhibition-link">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80"
+                            alt="Tuan Andrew Nguyen Plinth Commission">
+                    </div>
+                    <div class="exhibition-info">
+                        <h2 class="exhibition-name">'The Light that Shines Through the Universe' Selected as the 5th
+                            High Line Plinth Commission</h2>
+                        <h3 class="exhibition-artist">TUẤN ANDREW NGUYỄN</h3>
+                        <p class="exhibition-dates">December 2025</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-info">
+                <p>123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                <p>Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:contact@artexhibition.vn">contact@artexhibition.vn</a>
+                <a href="tel:+84901234567">+84 90 123 4567</a>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">X (Twitter)</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Art Exhibition. Demo Version.</p>
+            <a href="#">Chính sách bảo mật</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
