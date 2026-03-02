@@ -21,14 +21,19 @@
             <!-- Desktop Nav -->
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                    <li><a href="index.html" class="active">TRIỂN LÃM</a></li>
-                    <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                    <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                    <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                    <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                    <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                    <li><a href="index.html" class="active" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                    <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                    <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                    <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                    <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
                 </ul>
+                <div class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="vi">VN</a>
+                    <span class="lang-divider">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </div>
             </nav>
 
             <!-- Mobile Menu Toggle -->
@@ -56,16 +61,17 @@
         </div>
         <nav class="mobile-nav-links">
             <ul>
-                <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                <li><a href="index.html" class="active">TRIỂN LÃM</a></li>
-                <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                <li><a href="index.html" class="active" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
             </ul>
             <div class="mobile-nav-footer">
-                <a href="#">VN</a> | <a href="#">EN</a>
+                <a href="#" class="lang-btn active" data-lang="vi">VN</a> | <a href="#" class="lang-btn"
+                    data-lang="en">EN</a>
             </div>
         </nav>
     </div>
@@ -74,12 +80,12 @@
     <main class="page-content">
 
         <header class="page-header">
-            <h1 class="page-title">Triển lãm</h1>
+            <h1 class="page-title" data-i18n="index.title">Triển lãm</h1>
             <div class="exhibition-filters">
-                <a href="#" class="active" data-filter="all">Tất cả</a>
-                <a href="#" data-filter="current">Hiện tại</a>
-                <a href="#" data-filter="upcoming">Sắp tới</a>
-                <a href="#" data-filter="past">Đã qua</a>
+                <a href="#" class="active" data-filter="all" data-i18n="filter.all">Tất cả</a>
+                <a href="#" data-filter="current" data-i18n="filter.current">Hiện tại</a>
+                <a href="#" data-filter="upcoming" data-i18n="filter.upcoming">Sắp tới</a>
+                <a href="#" data-filter="past" data-i18n="filter.past">Đã qua</a>
             </div>
         </header>
 
@@ -171,8 +177,8 @@
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-info">
-                <p>123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
-                <p>Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
+                <p data-i18n="footer.address">123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                <p data-i18n="footer.hours">Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
             </div>
             <div class="footer-links">
                 <a href="mailto:contact@artexhibition.vn">contact@artexhibition.vn</a>
@@ -186,7 +192,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Art Exhibition. Demo Version.</p>
-            <a href="#">Chính sách bảo mật</a>
+            <a href="#" data-i18n="footer.privacy">Chính sách bảo mật</a>
         </div>
     </footer>
 

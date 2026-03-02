@@ -87,6 +87,53 @@ img {
     color: var(--color-accent);
 }
 
+/* LANGUAGE SWITCH */
+.desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+
+.lang-btn {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--color-text-light) !important;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lang-btn.active {
+    color: var(--color-text) !important;
+    font-weight: 700;
+}
+
+.lang-btn:hover {
+    color: var(--color-accent) !important;
+}
+
+.lang-divider {
+    color: var(--color-text-light);
+    font-size: 0.85rem;
+}
+
+.mobile-nav-footer .lang-btn {
+    font-size: 0.9rem;
+}
+
+.mobile-nav-footer .lang-btn.active {
+    font-weight: 700;
+    color: var(--color-text) !important;
+}
+
 .mobile-menu-toggle {
     display: none;
     background: none;

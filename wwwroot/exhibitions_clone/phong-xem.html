@@ -16,14 +16,19 @@
             </div>
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                    <li><a href="index.html">TRIỂN LÃM</a></li>
-                    <li><a href="phong-xem.html" class="active">PHÒNG XEM</a></li>
-                    <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                    <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                    <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                    <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                    <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                    <li><a href="phong-xem.html" class="active" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                    <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                    <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                    <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
                 </ul>
+                <div class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="vi">VN</a>
+                    <span class="lang-divider">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </div>
             </nav>
             <button class="mobile-menu-toggle" aria-label="Open Menu">
                 <span></span><span></span><span></span>
@@ -44,20 +49,24 @@
         </div>
         <nav class="mobile-nav-links">
             <ul>
-                <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                <li><a href="index.html">TRIỂN LÃM</a></li>
-                <li><a href="phong-xem.html" class="active">PHÒNG XEM</a></li>
-                <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                <li><a href="phong-xem.html" class="active" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
             </ul>
+            <div class="mobile-nav-footer">
+                <a href="#" class="lang-btn active" data-lang="vi">VN</a> | <a href="#" class="lang-btn"
+                    data-lang="en">EN</a>
+            </div>
         </nav>
     </div>
 
     <main class="page-content" style="min-height: 60vh;">
         <header class="page-header">
-            <h1 class="page-title">Phòng Xem</h1>
+            <h1 class="page-title" data-i18n="viewing.title">Phòng Xem</h1>
         </header>
         <div class="exhibition-grid">
             <!-- Online Viewing Room -->
@@ -69,8 +78,9 @@
                     </div>
                     <div class="exhibition-info">
                         <h2 class="exhibition-name">ONLINE VIEWING ROOM: FRIEZE SEOUL 2024</h2>
-                        <p class="exhibition-desc">Khám phá các tác phẩm của Tuấn Andrew Nguyễn tại Frieze Seoul.</p>
-                        <span class="read-more">Enter Room</span>
+                        <p class="exhibition-desc" data-i18n="viewing.desc1">Khám phá các tác phẩm của Tuấn Andrew
+                            Nguyễn tại Frieze Seoul.</p>
+                        <span class="read-more" data-i18n="viewing.enterRoom">Enter Room</span>
                     </div>
                 </a>
             </article>
@@ -83,9 +93,10 @@
                             alt="Virtual Tour">
                     </div>
                     <div class="exhibition-info">
-                        <h2 class="exhibition-name">THAM QUAN VIRTUAL</h2>
-                        <p class="exhibition-desc">Trải nghiệm không gian triển lãm 3D tại Galerie Quynh.</p>
-                        <span class="read-more">Start Tour</span>
+                        <h2 class="exhibition-name" data-i18n="viewing.virtualTour">THAM QUAN VIRTUAL</h2>
+                        <p class="exhibition-desc" data-i18n="viewing.desc2">Trải nghiệm không gian triển lãm 3D tại
+                            Galerie Quynh.</p>
+                        <span class="read-more" data-i18n="viewing.startTour">Start Tour</span>
                     </div>
                 </a>
             </article>
@@ -95,8 +106,8 @@
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-info">
-                <p>123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
-                <p>Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
+                <p data-i18n="footer.address">123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                <p data-i18n="footer.hours">Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
             </div>
             <div class="footer-links">
                 <a href="mailto:contact@artexhibition.vn">contact@artexhibition.vn</a>
@@ -110,7 +121,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Art Exhibition. Demo Version.</p>
-            <a href="#">Chính sách bảo mật</a>
+            <a href="#" data-i18n="footer.privacy">Chính sách bảo mật</a>
         </div>
     </footer>
     <script src="script.js"></script>

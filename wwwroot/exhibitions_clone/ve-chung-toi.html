@@ -16,14 +16,19 @@
             </div>
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                    <li><a href="index.html">TRIỂN LÃM</a></li>
-                    <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                    <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                    <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                    <li><a href="ve-chung-toi.html" class="active">VỀ CHÚNG TÔI</a></li>
-                    <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                    <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                    <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                    <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                    <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                    <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                    <li><a href="ve-chung-toi.html" class="active" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
                 </ul>
+                <div class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="vi">VN</a>
+                    <span class="lang-divider">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </div>
             </nav>
             <button class="mobile-menu-toggle" aria-label="Open Menu">
                 <span></span><span></span><span></span>
@@ -44,31 +49,38 @@
         </div>
         <nav class="mobile-nav-links">
             <ul>
-                <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                <li><a href="index.html">TRIỂN LÃM</a></li>
-                <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                <li><a href="ve-chung-toi.html" class="active">VỀ CHÚNG TÔI</a></li>
-                <li><a href="lien-he.html">LIÊN HỆ</a></li>
+                <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                <li><a href="ve-chung-toi.html" class="active" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                <li><a href="lien-he.html" data-i18n="nav.contact">LIÊN HỆ</a></li>
             </ul>
+            <div class="mobile-nav-footer">
+                <a href="#" class="lang-btn active" data-lang="vi">VN</a> | <a href="#" class="lang-btn"
+                    data-lang="en">EN</a>
+            </div>
         </nav>
     </div>
 
     <main class="page-content" style="min-height: 60vh;">
         <header class="page-header">
-            <h1 class="page-title">Về Chúng Tôi</h1>
+            <h1 class="page-title" data-i18n="about.title">Về Chúng Tôi</h1>
         </header>
 
         <div style="max-width: 800px; margin: 0 auto; color: var(--color-text-light); line-height: 1.8;">
-            <p style="margin-bottom: 2rem;">Được thành lập với sứ mệnh kết nối nghệ thuật đương đại Việt Nam với công
+            <p style="margin-bottom: 2rem;" data-i18n="about.p1">Được thành lập với sứ mệnh kết nối nghệ thuật đương đại
+                Việt Nam với công
                 chúng, Art Exhibition là không gian trưng bày nghệ thuật đương đại hàng đầu tại TP. Hồ Chí Minh. Trong
                 suốt thời gian qua, chúng tôi đã đóng vai trò quan trọng trong việc thúc đẩy sự phát triển của nghệ
                 thuật thông qua các triển lãm giáo dục và đối thoại văn hóa.</p>
-            <p style="margin-bottom: 2rem;">Chúng tôi đại diện cho một nhóm các nghệ sĩ tài năng, những người có thực
+            <p style="margin-bottom: 2rem;" data-i18n="about.p2">Chúng tôi đại diện cho một nhóm các nghệ sĩ tài năng,
+                những người có thực
                 hành nghệ thuật thách thức các quan niệm truyền thống và khám phá những ranh giới mới của thẩm mỹ và ý
                 tưởng sáng tạo.</p>
-            <p>Tọa lạc tại trung tâm TP. Hồ Chí Minh, Art Exhibition tiếp tục là điểm đến quan trọng cho những người yêu
+            <p data-i18n="about.p3">Tọa lạc tại trung tâm TP. Hồ Chí Minh, Art Exhibition tiếp tục là điểm đến quan
+                trọng cho những người yêu
                 nghệ thuật, các nhà sưu tập và các chuyên gia muốn tìm hiểu sâu hơn về bối cảnh văn hóa năng động của
                 Việt Nam.</p>
         </div>
@@ -77,8 +89,8 @@
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-info">
-                <p>123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
-                <p>Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
+                <p data-i18n="footer.address">123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                <p data-i18n="footer.hours">Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
             </div>
             <div class="footer-links">
                 <a href="mailto:contact@artexhibition.vn">contact@artexhibition.vn</a>
@@ -92,7 +104,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Art Exhibition. Demo Version.</p>
-            <a href="#">Chính sách bảo mật</a>
+            <a href="#" data-i18n="footer.privacy">Chính sách bảo mật</a>
         </div>
     </footer>
     <script src="script.js"></script>

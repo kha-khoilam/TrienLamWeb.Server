@@ -16,14 +16,19 @@
             </div>
             <nav class="desktop-nav">
                 <ul>
-                    <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                    <li><a href="index.html">TRIỂN LÃM</a></li>
-                    <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                    <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                    <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                    <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                    <li><a href="lien-he.html" class="active">LIÊN HỆ</a></li>
+                    <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                    <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                    <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                    <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                    <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                    <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lien-he.html" class="active" data-i18n="nav.contact">LIÊN HỆ</a></li>
                 </ul>
+                <div class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="vi">VN</a>
+                    <span class="lang-divider">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </div>
             </nav>
             <button class="mobile-menu-toggle" aria-label="Open Menu">
                 <span></span><span></span><span></span>
@@ -44,34 +49,41 @@
         </div>
         <nav class="mobile-nav-links">
             <ul>
-                <li><a href="nghe-si.html">NGHỆ SĨ</a></li>
-                <li><a href="index.html">TRIỂN LÃM</a></li>
-                <li><a href="phong-xem.html">PHÒNG XEM</a></li>
-                <li><a href="tin-tuc.html">TIN TỨC</a></li>
-                <li><a href="an-pham.html">ẤN PHẨM</a></li>
-                <li><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a></li>
-                <li><a href="lien-he.html" class="active">LIÊN HỆ</a></li>
+                <li><a href="nghe-si.html" data-i18n="nav.artists">NGHỆ SĨ</a></li>
+                <li><a href="index.html" data-i18n="nav.exhibitions">TRIỂN LÃM</a></li>
+                <li><a href="phong-xem.html" data-i18n="nav.viewing">PHÒNG XEM</a></li>
+                <li><a href="tin-tuc.html" data-i18n="nav.news">TIN TỨC</a></li>
+                <li><a href="an-pham.html" data-i18n="nav.publications">ẤN PHẨM</a></li>
+                <li><a href="ve-chung-toi.html" data-i18n="nav.about">VỀ CHÚNG TÔI</a></li>
+                <li><a href="lien-he.html" class="active" data-i18n="nav.contact">LIÊN HỆ</a></li>
             </ul>
+            <div class="mobile-nav-footer">
+                <a href="#" class="lang-btn active" data-lang="vi">VN</a> | <a href="#" class="lang-btn"
+                    data-lang="en">EN</a>
+            </div>
         </nav>
     </div>
 
     <main class="page-content" style="min-height: 60vh;">
         <header class="page-header">
-            <h1 class="page-title">Liên Hệ</h1>
+            <h1 class="page-title" data-i18n="contact.title">Liên Hệ</h1>
         </header>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;">
             <div>
-                <h2 style="font-size: 1.25rem; margin-bottom: 2rem;">THÔNG TIN LIÊN HỆ</h2>
-                <p style="margin-bottom: 1rem;"><strong>Địa chỉ:</strong> 123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1,
-                    Tp. HCM
+                <h2 style="font-size: 1.25rem; margin-bottom: 2rem;" data-i18n="contact.infoTitle">THÔNG TIN LIÊN HỆ
+                </h2>
+                <p style="margin-bottom: 1rem;"><strong data-i18n="contact.addressLabel">Địa chỉ:</strong> <span
+                        data-i18n="contact.addressValue">123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1,
+                        Tp. HCM</span>
                 </p>
-                <p style="margin-bottom: 1rem;"><strong>Điện thoại:</strong> +84 90 123 4567</p>
+                <p style="margin-bottom: 1rem;"><strong data-i18n="contact.phoneLabel">Điện thoại:</strong> +84 90 123
+                    4567</p>
                 <p style="margin-bottom: 1rem;"><strong>Email:</strong> contact@artexhibition.vn</p>
             </div>
             <div>
-                <h2 style="font-size: 1.25rem; margin-bottom: 2rem;">GIỜ MỞ CỬA</h2>
-                <p>Thứ Ba – Thứ Bảy: 10:00 – 19:00</p>
-                <p>Đóng cửa Chủ Nhật và Thứ Hai</p>
+                <h2 style="font-size: 1.25rem; margin-bottom: 2rem;" data-i18n="contact.hoursTitle">GIỜ MỞ CỬA</h2>
+                <p data-i18n="contact.hoursWeekday">Thứ Ba – Thứ Bảy: 10:00 – 19:00</p>
+                <p data-i18n="contact.hoursClosed">Đóng cửa Chủ Nhật và Thứ Hai</p>
             </div>
         </div>
     </main>
@@ -79,8 +91,8 @@
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-info">
-                <p>123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
-                <p>Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
+                <p data-i18n="footer.address">123 Đường Nghệ Thuật, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</p>
+                <p data-i18n="footer.hours">Mở cửa: Thứ Ba – Thứ Bảy, 10:00 – 19:00</p>
             </div>
             <div class="footer-links">
                 <a href="mailto:contact@artexhibition.vn">contact@artexhibition.vn</a>
@@ -94,7 +106,7 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Art Exhibition. Demo Version.</p>
-            <a href="#">Chính sách bảo mật</a>
+            <a href="#" data-i18n="footer.privacy">Chính sách bảo mật</a>
         </div>
     </footer>
     <script src="script.js"></script>
