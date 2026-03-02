@@ -1,0 +1,6 @@
+{
+    "buildCommand": "",
+    "outputDirectory": "wwwroot/exhibitions_clone",
+    "cleanUrls": true,
+    "trailingSlash": false
+}
