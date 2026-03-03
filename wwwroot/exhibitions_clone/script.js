@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'ex.archivebody.desc': 'A contemporary group exhibition exploring the human body as a living archive of history, memory, and personal experience.',
             'ex.phongchieu.desc': 'Curated by Thai Ha, Ngô Đình Bảo Châu brings installations of light and form into the gallery space.',
             'ex.chienhaychay.desc': 'An important project examining migration, memory, and the material weight of history through film and sculpture.',
-            'ex.trangnon.desc': 'Trần Văn Thảo returns with abstract paintings inspired by the cycles of the moon.',
+            'ex.trangnon.desc': 'Faker showcases historic moments from his League of Legends career, including his incredible World Championships and iconic plays with Azir, Ryze, and LeBlanc.',
             'ex.ondadream.desc': 'A solo show presenting sculptures that reimagine urban industrial textures.'
         },
         vi: {
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'ex.archivebody.desc': 'Một triển lãm nhóm đương đại khám phá cơ thể con người như một kho lưu trữ sống của lịch sử, ký ức và trải nghiệm cá nhân.',
             'ex.phongchieu.desc': 'Dưới sự giám tuyển của Thái Hà, Ngô Đình Bảo Châu mang đến những sắp đặt ánh sáng và hình thể hiển hiện trong không gian galerie.',
             'ex.chienhaychay.desc': 'Một dự án quan trọng nghiên cứu về di cư, ký ức và sức nặng vật chất của lịch sử thông qua phim và điêu khắc.',
-            'ex.trangnon.desc': 'Trần Văn Thảo quay trở lại với những bức họa trừu tượng lấy cảm hứng từ chu kỳ của mặt trăng.',
+            'ex.trangnon.desc': 'Faker trưng bày những khoảnh khắc lịch sử trong sự nghiệp thi đấu Liên Minh Huyền Thoại của mình, bao gồm các chức vô địch thế giới và các pha highlight kinh điển với Azir, Ryze, và LeBlanc.',
             'ex.ondadream.desc': 'Triển lãm cá nhân giới thiệu các tác phẩm điêu khắc tái hiện kết cấu công nghiệp đô thị.'
         }
     };
@@ -225,13 +225,14 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         "trang-non": {
-            title: "TRĂNG NON",
-            artist: "TRẦN VĂN THẢO",
+            title: "THE UNKILLABLE DEMON KING",
+            artist: "FAKER",
             dates: "15 NOVEMBER 2025 - 3 JANUARY 2026",
             descKey: "ex.trangnon.desc",
-            description: "Trần Văn Thảo quay trở lại với những bức họa trừu tượng lấy cảm hứng từ chu kỳ của mặt trăng.",
+            description: "Faker trưng bày những khoảnh khắc lịch sử trong sự nghiệp thi đấu Liên Minh Huyền Thoại của mình, bao gồm các chức vô địch thế giới và các pha highlight kinh điển với Azir, Ryze, và LeBlanc.",
             media: [
-                "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/4/4b/Faker_2020_interview.jpg",
+                "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
             ]
         },
         "on-da-dream": {
