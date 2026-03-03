@@ -64,12 +64,12 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.privacy': 'Privacy Policy',
 
             // Exhibition descriptions (modal)
-            'ex.thinspace.desc': 'Cian Duggan\'s "T H I N S P A C E" explores the concept of thin places in Celtic mythology—where the boundaries between worlds become fragile.',
-            'ex.archivebody.desc': 'A contemporary group exhibition exploring the human body as a living archive of history, memory, and personal experience.',
-            'ex.phongchieu.desc': 'Curated by Thai Ha, Ngô Đình Bảo Châu brings installations of light and form into the gallery space.',
-            'ex.chienhaychay.desc': 'An important project examining migration, memory, and the material weight of history through film and sculpture.',
+            'ex.thinspace.desc': 'Witness the unstoppable force of the Top Laner, Zeus, as he dominates the rift with his signature Jayce and Yone.',
+            'ex.archivebody.desc': 'A showcase of Keria\'s genius shotcalling and unmatched champion pool, redefining the Support role.',
+            'ex.phongchieu.desc': 'Experience Oner\'s explosive pathing and clutch smites that secured T1\'s dominance in the jungle.',
+            'ex.chienhaychay.desc': 'Relive Gumayusi\'s unshakeable mechanics and incredible 1v2 outplays as T1\'s lethal ADC.',
             'ex.trangnon.desc': 'Faker showcases historic moments from his League of Legends career, including his incredible World Championships and iconic plays with Azir, Ryze, and LeBlanc.',
-            'ex.ondadream.desc': 'A solo show presenting sculptures that reimagine urban industrial textures.'
+            'ex.ondadream.desc': 'A celebration of the legendary T1 roster taking the Summoner\'s Cup.'
         },
         vi: {
             // Navigation
@@ -133,12 +133,12 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.privacy': 'Chính sách bảo mật',
 
             // Exhibition descriptions (modal)
-            'ex.thinspace.desc': 'Triển lãm \'T H I N S P A C E\' của Cian Duggan khám phá khái niệm về \'không gian mỏng\' trong thần thoại Celtic—những nơi ranh giới giữa các thế giới trở nên mong manh.',
-            'ex.archivebody.desc': 'Một triển lãm nhóm đương đại khám phá cơ thể con người như một kho lưu trữ sống của lịch sử, ký ức và trải nghiệm cá nhân.',
-            'ex.phongchieu.desc': 'Dưới sự giám tuyển của Thái Hà, Ngô Đình Bảo Châu mang đến những sắp đặt ánh sáng và hình thể hiển hiện trong không gian galerie.',
-            'ex.chienhaychay.desc': 'Một dự án quan trọng nghiên cứu về di cư, ký ức và sức nặng vật chất của lịch sử thông qua phim và điêu khắc.',
+            'ex.thinspace.desc': 'Chứng kiến sức mạnh càn quét của người Đi Đường Trên, Zeus, khi anh thống trị bản đồ với Jayce và Yone trứ danh.',
+            'ex.archivebody.desc': 'Triển lãm tôn vinh khả năng kêu gọi thiên tài và bể tướng rộng không tưởng của Keria, người định nghĩa lại vai trò Hỗ Trợ.',
+            'ex.phongchieu.desc': 'Trải nghiệm những pha di chuyển bùng nổ và những cú Trừng Phạt then chốt của Oner, khẳng định sự thống trị của T1 trong khu rừng.',
+            'ex.chienhaychay.desc': 'Sống lại những kỹ năng không thể lay chuyển và những pha outplay 1v2 khó tin của Xạ Thủ chết chóc Gumayusi.',
             'ex.trangnon.desc': 'Faker trưng bày những khoảnh khắc lịch sử trong sự nghiệp thi đấu Liên Minh Huyền Thoại của mình, bao gồm các chức vô địch thế giới và các pha highlight kinh điển với Azir, Ryze, và LeBlanc.',
-            'ex.ondadream.desc': 'Triển lãm cá nhân giới thiệu các tác phẩm điêu khắc tái hiện kết cấu công nghiệp đô thị.'
+            'ex.ondadream.desc': 'Lễ ăn mừng đội hình T1 huyền thoại nâng cao chiếc cúp Summoner.'
         }
     };
 
@@ -185,49 +185,59 @@ document.addEventListener('DOMContentLoaded', () => {
     // ===== EXHIBITION DATA =====
     const exhibitionsData = {
         "thinspace": {
-            title: "T H I N S P A C E",
-            artist: "CIAN DUGGAN",
-            dates: "17 JANUARY - 28 FEBRUARY 2026",
-            descKey: "ex.thinspace.desc",
-            description: "Triển lãm 'T H I N S P A C E' của Cian Duggan khám phá khái niệm về 'không gian mỏng' trong thần thoại Celtic—những nơi ranh giới giữa các thế giới trở nên mong manh.",
+            title: "T1 2023: ZOFGK",
+            artist: "T1 ROSTER",
+            dates: "Worlds 2023",
+            descKey: "ex.ondadream.desc",
+            description: "Lễ ăn mừng đội hình T1 huyền thoại nâng cao chiếc cúp Summoner.",
             media: [
-                "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
             ]
         },
         "archive-body": {
-            title: "THE ARCHIVE BODY",
-            artist: "TRIỂN LÃM NHÓM",
-            dates: "2 - 25 OCTOBER 2025",
+            title: "GENIUS MONSTER",
+            artist: "KERIA",
+            dates: "SUPPORT",
             descKey: "ex.archivebody.desc",
-            description: "Một triển lãm nhóm đương đại khám phá cơ thể con người như một kho lưu trữ sống của lịch sử, ký ức và trải nghiệm cá nhân.",
+            description: "Triển lãm tôn vinh khả năng kêu gọi thiên tài và bể tướng rộng không tưởng của Keria, người định nghĩa lại vai trò Hỗ Trợ.",
             media: [
-                "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/c/cb/T1_Keria_2022.jpg"
             ]
         },
-        "phong-chieu": {
-            title: "PHÓNG CHIẾU MỘT Ý NGHĨ",
-            artist: "NGÔ ĐÌNH BẢO CHÂU",
-            dates: "9 AUGUST - 10 SEPTEMBER 2025",
-            descKey: "ex.phongchieu.desc",
-            description: "Dưới sự giám tuyển của Thái Hà, Ngô Đình Bảo Châu mang đến những sắp đặt ánh sáng và hình thể hiển hiện trong không gian galerie.",
+        "phong-chieu-mot-y-nghi": {
+            title: "GOD OF THUNDER",
+            artist: "ZEUS",
+            dates: "TOP LANER",
+            descKey: "ex.thinspace.desc",
+            description: "Chứng kiến sức mạnh càn quét của người Đi Đường Trên, Zeus, khi anh thống trị bản đồ với Jayce và Yone trứ danh.",
             media: [
-                "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
             ]
         },
         "chien-hay-chay": {
-            title: "CHIẾN HAY CHẠY HAY TRÔI HAY CHÌM",
-            artist: "TUẤN ANDREW NGUYỄN",
-            dates: "24 DECEMBER 2024 - 8 MARCH 2025",
+            title: "UNSHAKEABLE MARKSMAN",
+            artist: "GUMAYUSI",
+            dates: "ADC",
             descKey: "ex.chienhaychay.desc",
-            description: "Một dự án quan trọng nghiên cứu về di cư, ký ức và sức nặng vật chất của lịch sử thông qua phim và điêu khắc.",
+            description: "Sống lại những kỹ năng không thể lay chuyển và những pha outplay 1v2 khó tin của Xạ Thủ chết chóc Gumayusi.",
             media: [
-                "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/7/77/T1_Gumayusi_2022.jpg"
+            ]
+        },
+        "the-gioi-nhu-la-ban-nhap": {
+            title: "THE JUNGLE KING",
+            artist: "ONER",
+            dates: "JUNGLER",
+            descKey: "ex.phongchieu.desc",
+            description: "Trải nghiệm những pha di chuyển bùng nổ và những cú Trừng Phạt then chốt của Oner, khẳng định sự thống trị của T1 trong khu rừng.",
+            media: [
+                "https://upload.wikimedia.org/wikipedia/commons/1/15/T1_Oner_2022.jpg"
             ]
         },
         "trang-non": {
             title: "THE UNKILLABLE DEMON KING",
             artist: "FAKER",
-            dates: "15 NOVEMBER 2025 - 3 JANUARY 2026",
+            dates: "MID LANER",
             descKey: "ex.trangnon.desc",
             description: "Faker trưng bày những khoảnh khắc lịch sử trong sự nghiệp thi đấu Liên Minh Huyền Thoại của mình, bao gồm các chức vô địch thế giới và các pha highlight kinh điển với Azir, Ryze, và LeBlanc.",
             media: [
@@ -236,13 +246,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         "on-da-dream": {
-            title: "ON DA DREAM",
-            artist: "VY TRỊNH",
-            dates: "10 AUGUST - 12 OCTOBER 2024",
+            title: "T1 2024: BACK TO BACK",
+            artist: "T1 ROSTER",
+            dates: "Worlds 2024",
             descKey: "ex.ondadream.desc",
-            description: "Triển lãm cá nhân giới thiệu các tác phẩm điêu khắc tái hiện kết cấu công nghiệp đô thị.",
+            description: "Lễ ăn mừng đội hình T1 huyền thoại bảo vệ thành công chiếc cúp vô địch thế giới.",
             media: [
-                "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1200&q=80"
+                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
             ]
         }
     };
