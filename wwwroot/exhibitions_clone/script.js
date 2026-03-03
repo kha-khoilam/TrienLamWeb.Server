@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.ondadream.desc",
             description: "Lễ ăn mừng đội hình T1 huyền thoại nâng cao chiếc cúp Summoner.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Players_at_T1_2023_LoL_World_Champion_V4_Ceremony.jpg"
             ]
         },
         "archive-body": {
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.archivebody.desc",
             description: "Triển lãm tôn vinh khả năng kêu gọi thiên tài và bể tướng rộng không tưởng của Keria, người định nghĩa lại vai trò Hỗ Trợ.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/c/cb/T1_Keria_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Keria,_2023_worlds_winning_team_interview.jpg"
             ]
         },
         "phong-chieu-mot-y-nghi": {
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.thinspace.desc",
             description: "Chứng kiến sức mạnh càn quét của người Đi Đường Trên, Zeus, khi anh thống trị bản đồ với Jayce và Yone trứ danh.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Zeus_2024_post-match_interview.jpg"
             ]
         },
         "chien-hay-chay": {
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.chienhaychay.desc",
             description: "Sống lại những kỹ năng không thể lay chuyển và những pha outplay 1v2 khó tin của Xạ Thủ chết chóc Gumayusi.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/7/77/T1_Gumayusi_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Gumayusi_at_2023_LCK_Awards.jpg"
             ]
         },
         "the-gioi-nhu-la-ban-nhap": {
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.phongchieu.desc",
             description: "Trải nghiệm những pha di chuyển bùng nổ và những cú Trừng Phạt then chốt của Oner, khẳng định sự thống trị của T1 trong khu rừng.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/1/15/T1_Oner_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Oner_in_2024.jpg"
             ]
         },
         "trang-non": {
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.trangnon.desc",
             description: "Faker trưng bày những khoảnh khắc lịch sử trong sự nghiệp thi đấu Liên Minh Huyền Thoại của mình, bao gồm các chức vô địch thế giới và các pha highlight kinh điển với Azir, Ryze, và LeBlanc.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/4/4b/Faker_2020_interview.jpg",
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Faker_2020_interview.jpg",
                 "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
             ]
         },
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
             descKey: "ex.ondadream.desc",
             description: "Lễ ăn mừng đội hình T1 huyền thoại bảo vệ thành công chiếc cúp vô địch thế giới.",
             media: [
-                "https://upload.wikimedia.org/wikipedia/commons/e/ec/T1_Zeus_2022.jpg"
+                "https://commons.wikimedia.org/wiki/Special:FilePath/Players_at_T1_2023_LoL_World_Champion_V4_Ceremony.jpg"
             ]
         }
     };
