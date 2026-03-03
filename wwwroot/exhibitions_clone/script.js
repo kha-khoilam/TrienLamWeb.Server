@@ -313,6 +313,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // ===== EXHIBITION FILTERS =====
+    const filterBtns = document.querySelectorAll('.exhibition-filters a');
+    if (filterBtns.length > 0) {
+        // Assign statuses based on T1 context for demo
+        exhibitionItems.forEach((item, index) => {
+            if (!item.hasAttribute('data-status')) {
+                // simple loop: 0 = current, 1 = past, 2 = upcoming, etc.
+                const statuses = ['current', 'past', 'upcoming'];
+                item.setAttribute('data-status', statuses[index % 3]);
+            }
+        });
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (!btn.classList.contains('lang-btn')) { // ensure it's not lang switch
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const filter = btn.getAttribute('data-filter');
+
+                    exhibitionItems.forEach(item => {
+                        // Support hiding by toggling display
+                        if (filter === 'all' || item.getAttribute('data-status') === filter) {
+                            item.style.display = '';
+                            item.classList.add('reveal');
+                            setTimeout(() => item.classList.add('is-visible'), 50);
+                        } else {
+                            item.style.display = 'none';
+                            item.classList.remove('is-visible');
+                        }
+                    });
+                }
+            });
+        });
+    }
+
     // ===== MOBILE MENU =====
     const menuToggleBtn = document.querySelector('.mobile-menu-toggle');
     const menuCloseBtn = document.querySelector('.mobile-menu-close');
