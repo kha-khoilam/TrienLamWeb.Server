@@ -45,8 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // About page
             'about.title': 'About Us',
             'about.p1': 'T1 Exhibition is an experiential space dedicated to celebrating the emotional and victorious journey of the world\'s premier esports organization - T1.',
-            'about.p2': 'We bring fans an in-depth look at the team\'s history, monumental achievements, and the most legendary moments of the players across competitive seasons.',
-            'about.p3': 'More than an exhibition, this is a gathering place for the community—where the burning passion for League of Legends esports is united and celebrated.',
+            'about.p2': 'We feature exclusive installations, trophies, and behind-the-scenes moments that trace the legacy of T1 from their historic beginnings to their ongoing reign in the League of Legends competitive scene.',
+            'about.p3': 'Located in the heart of Ho Chi Minh City, T1 Exhibition serves as a premier destination for fans, gamers, and professionals seeking deeper insight into the dynamic and indomitable spirit of T1 esports.',
+            'viewing.hl1_title': 'T1 WIN THE 2024 WORLD CHAMPIONSHIP',
+            'viewing.hl1_desc': 'Witness history as the legendary T1 roster defeats Bilibili Gaming to secure their historic 5th League of Legends World Championship at the O2 Arena in London. Faker reclaims his throne as the Unkillable Demon King, lifting his 5th Summoner\'s Cup alongside teammates Zeus, Oner, Gumayusi, and Keria.',
+            'viewing.hl2_title': 'THE GLORY OF WORLDS 2023',
+            'viewing.hl2_desc': 'Experience the emotion and the unforgettable hype of the 2023 Championship run where T1 dominated the competition in South Korea.',
+            'viewing.hl3_title': 'FAKER\'S LEGACY - WARRIORS',
+            'viewing.hl3_desc': 'Reflect on the legacy of the Greatest of All Time. His plays, his unyielding spirit, and the birth of a dynasty that continues to rule League of Legends esports.',
 
             // Contact page
             'contact.title': 'Contact',
@@ -59,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'contact.hoursClosed': 'Closed on Sunday and Monday',
 
             // Footer
-            'footer.address': '123 Art Street, Ben Nghe Ward, District 1, Ho Chi Minh City',
+            'footer.address': '123 Esports Boulevard, Ben Nghe Ward, District 1, HCMC',
             'footer.hours': 'Open: Tuesday – Saturday, 10:00 AM – 7:00 PM',
             'footer.privacy': 'Privacy Policy',
 
@@ -114,8 +120,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // About page
             'about.title': 'Về Chúng Tôi',
             'about.p1': 'T1 Exhibition là không gian trải nghiệm và tôn vinh hành trình thi đấu đầy cảm xúc của tổ chức Thể Thao Điện Tử hàng đầu thế giới - T1.',
-            'about.p2': 'Chúng tôi mang đến cho người hâm mộ cái nhìn sâu sắc về lịch sử, thành tích và những khoảnh khắc huyền thoại nhất của các tuyển thủ qua các mùa giải.',
-            'about.p3': 'Không chỉ là một triển lãm, đây còn là nơi gắn kết cộng đồng, những người luôn mang trong mình niềm đam mê cháy bỏng với nền Liên Minh Huyền Thoại.',
+            'about.p2': 'Chúng tôi mang đến các tác phẩm nghệ thuật hiện đại, cúp vô địch và những khoảnh khắc hậu trường lịch sử thể hiện lại di sản tiếp nối của T1 trong liên minh huyền thoại.',
+            'about.p3': 'Tọa lạc tại trung tâm TP. Hồ Chí Minh, T1 Exhibition tiếp tục là điểm đến quan trọng cho những người hâm mộ cuồng nhiệt tận hưởng không khí thể thao năng động.',
+            'viewing.hl1_title': 'T1 VÔ ĐỊCH THẾ GIỚI 2024',
+            'viewing.hl1_desc': 'Chứng kiến lịch sử khi đội hình huyền thoại T1 đánh bại Bilibili Gaming để làm nên lịch sử với chức vô địch thứ 5 tại nhà thi đấu O2 ở London. Faker lấy lại ngai vàng của mình với tư cách là Quỷ Vương Bất Tử, nâng cao chiếc Cúp thứ 5 cùng các đồng đội Zeus, Oner, Gumayusi và Keria.',
+            'viewing.hl2_title': 'VINH QUANG TẠI CKTG 2023',
+            'viewing.hl2_desc': 'Trải nghiệm lại cảm xúc vỡ òa và những điều không thể nào quên của hành trình vô địch vĩ đại năm 2023, khi T1 thống trị giải đấu được tổ chức trên chính sân nhà Hàn Quốc.',
+            'viewing.hl3_title': 'DI SẢN CỦA FAKER - WARRIORS',
+            'viewing.hl3_desc': 'Nhìn lại di sản của Tuyển thủ Vĩ đại nhất mọi thời đại. Những pha xử lý, tinh thần không bỏ cuộc và sự ra đời của một triều đại tiếp tục thống trị giới Thể thao điện tử Liên Minh Huyền Thoại.',
 
             // Contact page
             'contact.title': 'Liên Hệ',
