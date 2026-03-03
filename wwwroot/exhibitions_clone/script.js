@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Navigation
             'nav.artists': 'ARTISTS',
             'nav.exhibitions': 'EXHIBITIONS',
-            'nav.viewing': 'VIEWING ROOMS',
-            'nav.news': 'NEWS',
+            'nav.viewing': 'HIGHLIGHTS',
+            'nav.news': 'MATCH NEWS',
             'nav.publications': 'PUBLICATIONS',
             'nav.about': 'ABOUT US',
             'nav.contact': 'CONTACT',
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'artists.viewArtist': 'View Artist',
 
             // Viewing Rooms page
-            'viewing.title': 'Viewing Rooms',
+            'viewing.title': 'Match Highlights',
             'viewing.virtualTour': 'VIRTUAL TOUR',
             'viewing.desc1': 'Explore Tuấn Andrew Nguyễn\'s works at Frieze Seoul.',
             'viewing.desc2': 'Experience the 3D exhibition space at Galerie Quynh.',
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'viewing.startTour': 'Start Tour',
 
             // News page
-            'news.title': 'News',
+            'news.title': 'Match News',
             'news.readMore': 'Read more',
 
             // Publications page
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Navigation
             'nav.artists': 'NGHỆ SĨ',
             'nav.exhibitions': 'TRIỂN LÃM',
-            'nav.viewing': 'PHÒNG XEM',
-            'nav.news': 'TIN TỨC',
+            'nav.viewing': 'HIGHLIGHTS',
+            'nav.news': 'TIN TỨC THI ĐẤU',
             'nav.publications': 'ẤN PHẨM',
             'nav.about': 'VỀ CHÚNG TÔI',
             'nav.contact': 'LIÊN HỆ',
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'artists.viewArtist': 'Xem Nghệ Sĩ',
 
             // Viewing Rooms page
-            'viewing.title': 'Phòng Xem',
+            'viewing.title': 'Khởi Chiếu Highlights',
             'viewing.virtualTour': 'THAM QUAN VIRTUAL',
             'viewing.desc1': 'Khám phá các tác phẩm của Tuấn Andrew Nguyễn tại Frieze Seoul.',
             'viewing.desc2': 'Trải nghiệm không gian triển lãm 3D tại Galerie Quynh.',
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'viewing.startTour': 'Bắt Đầu',
 
             // News page
-            'news.title': 'Tin Tức',
+            'news.title': 'Tin Tức Thi Đấu',
             'news.readMore': 'Đọc thêm',
 
             // Publications page
