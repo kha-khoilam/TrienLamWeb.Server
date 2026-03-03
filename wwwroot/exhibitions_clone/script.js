@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // About page
             'about.title': 'About Us',
-            'about.p1': 'Founded with the mission to connect Vietnamese contemporary art with the public, Art Exhibition is a leading contemporary art space in Ho Chi Minh City. Over the years, we have played a vital role in fostering art development through educational exhibitions and cultural dialogues.',
-            'about.p2': 'We represent a group of talented artists whose practices challenge traditional notions and explore new boundaries in aesthetics and creative ideas.',
-            'about.p3': 'Located in the heart of Ho Chi Minh City, Art Exhibition continues to be an important destination for art lovers, collectors, and professionals seeking a deeper understanding of Vietnam\'s dynamic cultural landscape.',
+            'about.p1': 'T1 Exhibition is an experiential space dedicated to celebrating the emotional and victorious journey of the world\'s premier esports organization - T1.',
+            'about.p2': 'We bring fans an in-depth look at the team\'s history, monumental achievements, and the most legendary moments of the players across competitive seasons.',
+            'about.p3': 'More than an exhibition, this is a gathering place for the community—where the burning passion for League of Legends esports is united and celebrated.',
 
             // Contact page
             'contact.title': 'Contact',
@@ -113,9 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // About page
             'about.title': 'Về Chúng Tôi',
-            'about.p1': 'Được thành lập với sứ mệnh kết nối nghệ thuật đương đại Việt Nam với công chúng, Art Exhibition là không gian trưng bày nghệ thuật đương đại hàng đầu tại TP. Hồ Chí Minh. Trong suốt thời gian qua, chúng tôi đã đóng vai trò quan trọng trong việc thúc đẩy sự phát triển của nghệ thuật thông qua các triển lãm giáo dục và đối thoại văn hóa.',
-            'about.p2': 'Chúng tôi đại diện cho một nhóm các nghệ sĩ tài năng, những người có thực hành nghệ thuật thách thức các quan niệm truyền thống và khám phá những ranh giới mới của thẩm mỹ và ý tưởng sáng tạo.',
-            'about.p3': 'Tọa lạc tại trung tâm TP. Hồ Chí Minh, Art Exhibition tiếp tục là điểm đến quan trọng cho những người yêu nghệ thuật, các nhà sưu tập và các chuyên gia muốn tìm hiểu sâu hơn về bối cảnh văn hóa năng động của Việt Nam.',
+            'about.p1': 'T1 Exhibition là không gian trải nghiệm và tôn vinh hành trình thi đấu đầy cảm xúc của tổ chức Thể Thao Điện Tử hàng đầu thế giới - T1.',
+            'about.p2': 'Chúng tôi mang đến cho người hâm mộ cái nhìn sâu sắc về lịch sử, thành tích và những khoảnh khắc huyền thoại nhất của các tuyển thủ qua các mùa giải.',
+            'about.p3': 'Không chỉ là một triển lãm, đây còn là nơi gắn kết cộng đồng, những người luôn mang trong mình niềm đam mê cháy bỏng với nền Liên Minh Huyền Thoại.',
 
             // Contact page
             'contact.title': 'Liên Hệ',
